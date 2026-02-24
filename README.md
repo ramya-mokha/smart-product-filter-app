@@ -1,12 +1,27 @@
-# React + Vite
+Smart Product Filter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic product filtering web application built using React. The app allows users to search and filter products in real-time based on category, price, company, and color.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time product search using controlled input
+Multi-criteria filtering (category, color, company, price)
+Component-based architecture
+Dynamic rendering of product cards
+State management using React useState
+Clean and responsive UI
 
-## Expanding the ESLint configuration
+🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React.js
+JavaScript (ES6+)
+CSS
+Component-based design
+
+🧠 Concepts Used
+
+React Hooks (useState)
+Controlled Components
+Array filtering
+Props and component communication
+Conditional rendering
