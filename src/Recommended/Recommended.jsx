@@ -1,0 +1,19 @@
+import React from 'react'
+import './Recommended.css'
+import Button from '../Components/Button'
+const Recommended=({handleClick})=>{
+  return <>
+  <div>
+    <h2 className='recommended-title'>Recommended</h2>
+    <div className="recommended-btns">
+      <Button onClickHandler={handleClick} value="Nike" title="Nike" />
+      <Button onClickHandler={handleClick} value="Adidas" title="Adidas" />
+      <Button onClickHandler={handleClick} value="Puma" title="Puma" />
+      <Button onClickHandler={handleClick} value="Vans" title="Vans" />
+      <Button onClickHandler={handleClick} value="" title="ALL" />
+    </div>
+  </div>
+  </>
+}
+
+export default Recommended
